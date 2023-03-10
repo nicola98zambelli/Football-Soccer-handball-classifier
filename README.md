@@ -9,8 +9,9 @@ The first phase was the collection of images of game action and handballs. In tu
 ![Image](https://user-images.githubusercontent.com/98172442/224316100-48c94776-e70c-467e-a639-a52498ae8ab4.PNG)
 ### *Test Phase*
 Once the described model was obtained, I moved on to the test phase, which shows very excellent performances on the 46 and 42 images left for the test of hand and non hand fouls respectively. The Confusion Matrix shows an accuracy of 95% for handballs and 78% for fouls, overturning the validation results. The latter is not a good sign as the data may be distorted. This is solved by adding date which I don't have.
-![Image](https://user-images.githubusercontent.com/98172442/224317182-63962651-ca28-4f2b-804a-1e9f119e834f.PNG) ![Image](https://user-images.githubusercontent.com/98172442/224317219-b1e33bbb-efc3-405a-bc04-f45ff4f4a315.PNG)
+![Image](https://user-images.githubusercontent.com/98172442/224317182-63962651-ca28-4f2b-804a-1e9f119e834f.PNG)
+![Image](https://user-images.githubusercontent.com/98172442/224317219-b1e33bbb-efc3-405a-bc04-f45ff4f4a315.PNG)
 ### *Conclusion*
-In conclusion this work can be a good starting point for identifying handballs in soccer or to help the referee make decisions in a short time, for example given a small video this could be broken up into 60 frames per second and evaluate the frame with the highest probability of handball, helping to understand immediately if a handball has occurred which is a necessary but not sufficient condition for there to be a handball, due to involuntariness, distance, etc. ...
+In conclusion this work can be a good starting point for identifying handballs in soccer or to help the referee make decisions in a short time, for example given a small video this could be broken up into 60 frames per second and evaluate the frame with the highest probability of handball, helping to understand immediately if a handball touch has occurred which is a necessary but not sufficient condition for there to be a handball, due to involuntariness, distance, etc. ...
 ### *TO USE*
 To use the model, just download the folder with the script and the model and change the path to the image you want to classify.

@@ -14,4 +14,4 @@ Once the described model was obtained, I moved on to the test phase, which shows
 ### *Conclusion*
 In conclusion this work can be a good starting point for identifying handballs in soccer or to help the referee make decisions in a short time, for example given a small video this could be broken up into 60 frames per second and evaluate the frame with the highest probability of handball, helping to understand immediately if a handball touch has occurred which is a necessary but not sufficient condition for there to be a handball, due to involuntariness, distance, etc. ...
 ### *TO USE*
-To use the model, just download the folder with the script and the model and change the path to the image you want to classify.
+To use the model, just download the folder with the main script and the model in .h5 format, then change the path to the image you want to classify, the outcome of the evaluation and the associated probability will be printed in the console.
